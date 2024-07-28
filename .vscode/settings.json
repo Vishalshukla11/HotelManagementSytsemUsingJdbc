@@ -1,0 +1,25 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\acer\\Desktop\\SQL\\jdbc\\mysql-connector-j-9.0.0\\mysql-connector-j-9.0.0\\mysql-connector-j-9.0.0.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQlLocalDatabase ",
+            "username": "root",
+            "database": "demodb1",
+            "password": "Pankaj",
+            "connectionTimeout": 30
+        }
+    ]
+}
